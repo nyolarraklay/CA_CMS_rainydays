@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rainy Days | Home</title>
+    <meta
+      name="description"
+      content="An online store selling all weather jackets in various size and colors."
+    />
+    <script
+      src="https://kit.fontawesome.com/50fb4de67d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&family=Roboto&display=swap"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <nav class="navbar">
+          <ul class="navMenu">
+            <li class="navItem">
+              <a class="navLink" href="index.html">Home</a>
+            </li>
+            <li class="navItem">
+              <a class="navLink" href="about.html">About</a>
+            </li>
+            <li class="navItem">
+              <a class="navLink" href="products.html">Products</a>
+            </li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+        <div class="nav-container-part2">
+          <div class="nav-cart">
+            <form>
+              <input type="checkbox" id="cart-checkbox" />
+              <label for="cart-checkbox" class="cart-icon">
+                <a href="cart.html">
+                  <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                  <span class="cartOrder">0</span>
+                  <span class="wave">icon</span>
+                </a>
+              </label>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="home-page">
+      <section class="top-section">
+        <div class="blur top-section-text">
+          <p>Rainy Days</p>
+          <h1>Jackets</h1>
+          <h2>Weatherproof outerwear for every season</h2>
+          <a class="cta" href="products.html">Shop now</a>
+        </div>
+      </section>
+      <div class="mainSection"></div>
+      <section class="bottom-section">
+        <div class="blur bottom-section-text">
+          <h2>FACE THE GREAT OUTDOORS</h2>
+          <p>
+            Our most iconic designs and best selling jackets suitable for any
+            outdoor activities
+          </p>
+          <button class="cta homeButton" href="products.html">Shop now</button>
+        </div>
+      </section>
+      <section class="message-us">
+        <div class="message-us-container">
+          <div class="box-1">
+            <h2>Stay Connected</h2>
+            <p>
+              Get behind the scenes access to campaigns, new products and sales
+            </p>
+          </div>
+          <div class="box-2">
+            <form id="emailHome">
+              <label for="email">Subscribe to newsletter</label>
+              <br />
+              <input placeholder="email" id="email" />
+
+              <button class="cta">Submit</button>
+              <div class="form-error" id="emailError"></div>
+              <p>
+                By signing up you are agreeing marketing communication from us.
+                For more information please see our Privacy Policy
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-media">
+        <div class="SM-box1">
+          <h3>Customer Service</h3>
+          <p>Contact Us</p>
+          <p>Newsletter</p>
+        </div>
+        <div class="SM-box2">
+          <h3>Online Shopping</h3>
+          <p>Shopping cart</p>
+          <p class="productBox">our product</p>
+        </div>
+        <div class="SM-box3">
+          <h3>Information</h3>
+          <p class="info">Store Address</p>
+          <p class="info">Store Hours</p>
+          <p class="info">Payment options</p>
+        </div>
+        <div class="SM-box4">
+          <h3>Follow Us on Social Media</h3>
+          <a href="facebook.com">
+            <i class="fa-brands fa-facebook-f"></i>
+            <span class="wave">facebook</span>
+          </a>
+          <a href="instagram.com">
+            <i class="fa-brands fa-instagram"></i>
+            <span class="wave">instagram</span>
+          </a>
+          <a href="twitter.com">
+            <i class="fa-brands fa-twitter"></i>
+            <span class="wave">twitter</span>
+          </a>
+          <a href="pinterest.com">
+            <i class="fa-brands fa-pinterest-p"></i>
+            <span class="wave">pinterest</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; RAINY DAYS 2022</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/emailValidate.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/footer.js"></script>
+  </body>
+</html>
