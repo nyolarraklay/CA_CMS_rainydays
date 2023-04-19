@@ -1,8 +1,4 @@
-const apiBase = "http://rainy-dayswordpress.local";
-const wooCommerceBase = "/wp-json/wc/store";
-const productsBase = "/products/";
-
-const pageBase = "/wp-json/wp/v2/pages";
+import { getProducts } from "./import.js";
 
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
