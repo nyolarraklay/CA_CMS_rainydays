@@ -1,4 +1,4 @@
-const base = "http://rainy-dayswordpress.local";
+const base = "https://rainydays.nyolosorio.no";
 const wCommerceBase = "/wp-json/wc/store";
 const productBase = "/products";
 const featureBase = "?featured=true";
