@@ -18,6 +18,7 @@
     />
     <link rel="stylesheet" href="/css/style.css" />
 <script src="/js/index.js" defer type="module"></script>
+<script src="/js/search.js" defer type="module"></script>
   </head>
   <body>
      <header>
@@ -44,9 +45,12 @@
           <div class="nav-searchbox">
             <form>
               <label for="search"
+  class="searchForm"
                 ><span class="wave">search</span>
-                <input id="search" type="search" placeholder="Search" />
-              </label>
+                <input id="searchInput" type="search" />
+<button class="searchButton">Search</button>              
+</label>
+
             </form>
           </div>
           <div class="nav-cart">
@@ -150,8 +154,19 @@
 
       <section class="contentCa">
               <h1>All weather Jackets</h1>
+ <div class="dropdown">
+  <button class="dropbtn">Sort by </button>
+  <div id="myDropdown" class="dropdown-content">
+<ul>
+<li><button class="ddList atoz"><ion-icon name="ellipse-outline"> </ion-icon><span>A - Z</span></button></li>
+<li><button class="ddList ztoa"><ion-icon name="ellipse-outline"> </ion-icon><span>Z-A</span></button></li>
+<li><button class="ddList highP"><ion-icon name="ellipse-outline"> </ion-icon><span>Highest price</span></button></li>
+<li><button class="ddList lowP"><ion-icon name="ellipse-outline"> </ion-icon><span>Lowest price</span></button></li>
+</ul>
+  </div>
+</div> 
       <div class="containerCa"></div>
-      <h3>Feaured product</h3>
+      <h3>Featured product</h3>
       <div class="featured"></div>
 
       </section>
@@ -229,6 +244,7 @@
     <script src="js/product.js"></script>
    
 <script src="js/footer.js"></script>
-
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

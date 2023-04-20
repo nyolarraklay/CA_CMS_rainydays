@@ -745,6 +745,11 @@ li {
   grid-template-columns: 3fr 1fr 1fr 1fr;
   border-bottom: 4px solid lightgrey;
   margin: 0 auto;
+grid-gap: 30px
+}
+
+.total{
+text-align: center;
 }
 
 .product-title {
@@ -920,7 +925,7 @@ img {
 }
 
 .containerCa {
-  margin-top: 40px;
+  margin-top: 70px;
   display: flex;
   flex-flow: row wrap;
 justify-content: center;
@@ -943,9 +948,73 @@ grid-template-columns: 1fr 1fr;
 
 }
 
+.searchButton{
+width: 50%;
+background: rgb(10, 54, 65);
+color: white;
+}
+.searchForm{
+display: flex;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(10, 54, 65);
+  color: white;
+  padding: 10px 45px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+width: 100%;
+}
+
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color:  rgb(10, 54, 65);
+}
+
+.dropdown {
+  position: relative;
+  float: right;
+
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 100%;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content li {
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.show {display:block;}
+
+.ddList {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
 
 @media (min-width: 150px) and (max-width: 700px) {
   /**navigation**/
+
+
+.product{
+text-align: center;
+display: grid;
+}
 
   .hamburger {
     display: block;
@@ -1252,9 +1321,10 @@ justify-items: center
 @media (min-width: 366px) and (max-width: 680px) {
   .products {
     width: 100%;
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 3fr 1fr 1fr 1fr;;
+
   }
   .product {
     width: 45%;
