@@ -1,10 +1,11 @@
 # CourseAssignment_CMS_rainydays
 
-<img src="Screenshot 2023-05-31 140917.png" alt="alt text" title="image Title" />
+<img src="CA_homepage.png" alt="homepage" title="image Title" />
+<img src="CA_productpage.png" alt="productpage" title="image Title" />
+<img src="CA_detailspage.png" alt="detailspage" title="image Title" />
 
 
 
-A simple overview of the use/purpose of the project.
 
 ## Description
 
