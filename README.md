@@ -8,21 +8,24 @@
 
 
 ## Description
+In this course assignment, we must use our knowledge of WordPress content management to setup an API for consumption in my Rainy days website project.
 
-An interactive science museum is called the community science museum. Its core target audience is primary and middle school children and families with young children. The website is informative and engaging, it encourages users to visit the museum. The website is responsive and easy to use on various devices.
 
 This repository consists of the following:
 
-- Figma Files
+- Javascript Files
 - Image Files
 - HTML files
 - CSS files
 
+
 ## Built With
 
-- Figma
+- Javascript
 - HTML
 - CSS
+- API from wordPress (https://rainydays.nyolosorio.no/wp-json/wc/store/products)
+
 ## Getting Started
 
 ### Installing
@@ -32,7 +35,7 @@ This repository consists of the following:
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
+git clone git@github.com:nyolarraklay/CA_CMS_rainydays.git
 ```
 
 2. Install the dependencies:
