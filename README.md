@@ -35,7 +35,7 @@ This repository consists of the following:
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:nyolarraklay/CA_CMS_rainydays.git
+git clone git@github.com:nyolarraklay/CA_CMS_rainydays.git](https://github.com/nyolarraklay/CA_CMS_rainydays.git
 ```
 
 2. Install the dependencies:
